@@ -1,0 +1,25 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary and backup files
+~$*
+*.tmp
+*.temp
+*.bak
+
+# Python / notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+venv/
+
+# Local raw or intermediate data
+# Keep the documentation file, but ignore future large/raw datasets by default.
+data/raw/
+data/intermediate/
