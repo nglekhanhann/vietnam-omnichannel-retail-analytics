@@ -98,8 +98,36 @@ The dataset follows a star-schema structure with one transaction fact table and 
 
 ### Home & Navigation
 
-![Retail Analytics Dashboard](assets/dashboard-home.png)
+![Home dashboard](assets/home.png)
 
+### Retail Sales Overview
+
+![Retail sales overview dashboard](assets/retail-sales-overview.png)
+
+### Sales & Profit Trends
+
+![Sales and profit trend dashboard](assets/sales-and-profit-trend.png)
+
+### Channel & Store Analysis
+
+![Channel and store dashboard](assets/channel-and-store.png)
+
+### Item Sales
+
+![Item sales dashboard](assets/item-sales.png)
+
+### Promotion & Risk Analysis
+
+![Promotion and risk dashboard](assets/promotion-and-risk.png)
+
+### Report Pages
+
+1. **Home** — project context and report navigation
+2. **Retail Sales Overview** — headline KPIs and overall performance
+3. **Sales & Profit Trends** — monthly and yearly sales, profit, margin, and growth
+4. **Channel & Store Analysis** — channel mix, store performance, and regional comparison
+5. **Item Sales** — category, SKU, margin, and ABC product analysis
+6. **Promotion & Risk Analysis** — promotion quality, return rate, and stockout risk
 ### Report Pages
 
 1. **Home** — project context and report navigation
@@ -142,7 +170,12 @@ The dataset follows a star-schema structure with one transaction fact table and 
 .
 ├── README.md
 ├── assets/
-│   └── dashboard-home.png
+│   ├── home.png
+│   ├── retail-sales-overview.png
+│   ├── sales-and-profit-trend.png
+│   ├── channel-and-store.png
+│   ├── item-sales.png
+│   └── promotion-and-risk.png
 ├── powerbi/
 │   └── retail_sales_dashboard.pbix
 ├── docs/
